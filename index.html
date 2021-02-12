@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css clip-path tutorial</title>
+	<style type="text/css">
+		img{
+			width: 300px;
+			height: 300px;
+			clip-path: circle(40%);
+			clip-path: ellipse(40% 10% at 50% 50%);
+			clip-path: inset(20% 20% 40% 30%);
+			clip-path: polygon(50% 0%,100% 100%,0% 100%);
+			clip-path: polygon(50% 0%,100% 50%,50% 100%,0% 50%);
+		}
+		.box{
+			/*width: 400px;
+			height: 400px;
+			background-color: gray;
+			clip-path: polygon(0 42%, 55% 43%, 62% 9%, 100% 49%, 61% 86%, 56% 60%, 0 66%);*/
+		}
+	</style>
+</head>
+<body>
+	<img src="image.jpg" alt="my picture">
+	<div class="box"></div>
+
+</body>
+</html>
